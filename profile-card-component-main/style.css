@@ -1,0 +1,119 @@
+:root {
+  --dark-cyan: hsl(185, 75%, 39%);
+  --dark-desaturated: hsl(229, 23%, 23%);
+  --dark-grayish-blue: hsl(227, 10%, 46%)
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  background: var(--dark-cyan);
+  text-align: center;
+  
+}
+
+.bg-ballon-top {
+  position: absolute;
+  top: -50%;
+  right: 50%;
+  z-index: 9
+}
+
+.bg-ballon-bottom {
+  position: absolute;
+  bottom: -50%;
+  left: 50%;
+  z-index: 9
+}
+
+.profile-card {
+  display: inline-block;
+  justify-content: center;
+  margin-top: 100px;
+  background-color: white;
+  height: 450px;
+  width: 300px;
+  border-radius:  20px 20px;
+  background: #fff url(/profile-card-component-main/images/bg-pattern-card.svg) no-repeat
+}
+
+.card-header {
+  width: 100%;
+  border-radius: 20px 20px 0 0 ;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+
+.victor-crest-photo {
+  border: 6px solid white;
+  border-radius: 50%;
+  /*padding: 10px auto;*/
+}
+
+.profile-name-age {
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  margin: 30px 0 20px
+}
+
+.age {
+  font-weight: normal;
+  margin-left: 5px;
+  opacity: 0.5;
+}
+
+.locality {
+  
+  opacity: 0.5;
+  font-size: 1rem;
+}
+
+hr {
+  background-color: gray;
+  border: none;
+  height: 1px;
+  opacity: 0.4;
+  margin: 30px 0 40px;
+}
+
+/*.social-info {
+ display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 20px 0 20px
+}*/
+
+.numbers-followers {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1px 0 15px;
+  font-size: 1.3rem
+}
+
+.info {
+  display: block;
+  opacity:0.5;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 15px 
+}
+
+.attribution {
+  margin: 50px 0 50px;
+  font-weight: bold;
+  
+}
