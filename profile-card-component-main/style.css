@@ -1,6 +1,6 @@
 :root {
   /*LIGHT THEME*/
-  --dark-cyan: hsl(185, 75%, 39%);
+  --background-color: hsl(185, 75%, 39%);
   --text-color: #000000;
   --card-background:  #fff;
 }
@@ -15,7 +15,7 @@
 
 body {
   font-family: 'Kumbh Sans', sans-serif;
-  background: var(--dark-cyan);
+  background: var(--background-color);
   text-align: center;
   color: var(--text-color)
 }
