@@ -16,6 +16,6 @@
 
 .prettierignore
 
-./profile-card-component-main/README-template.md
+. /profile-card-component-main/README-template.md
 
-./profile-card-component-main/style-guide.md
+. /profile-card-component-main/style-guide.md
