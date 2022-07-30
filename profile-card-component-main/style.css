@@ -1,7 +1,8 @@
 :root {
+  /*LIGHT THEME*/
   --dark-cyan: hsl(185, 75%, 39%);
-  --dark-desaturated: hsl(229, 23%, 23%);
-  --dark-grayish-blue: hsl(227, 10%, 46%)
+  --text-color: #000000;
+  --card-background:  #fff;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
@@ -16,32 +17,19 @@ body {
   font-family: 'Kumbh Sans', sans-serif;
   background: var(--dark-cyan);
   text-align: center;
-  
-}
-
-.bg-ballon-top {
-  position: absolute;
-  top: -50%;
-  right: 50%;
-  z-index: 9
-}
-
-.bg-ballon-bottom {
-  position: absolute;
-  bottom: -50%;
-  left: 50%;
-  z-index: 9
+  color: var(--text-color)
 }
 
 .profile-card {
   display: inline-block;
   justify-content: center;
   margin-top: 100px;
-  background-color: white;
+  background-color: var(--card-background);
   height: 450px;
   width: 300px;
   border-radius:  20px 20px;
-  background: #fff url(/profile-card-component-main/images/bg-pattern-card.svg) no-repeat
+  background: var(--card-background) url(/profile-card-component-main/images/bg-pattern-card.svg) no-repeat;
+  
 }
 
 .card-header {
@@ -112,8 +100,19 @@ hr {
   font-size: 15px 
 }
 
-.attribution {
-  margin: 50px 0 50px;
-  font-weight: bold;
+.btn-theme {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 20px;
+  font-size: 20px;
   
+}
+
+#label {
+  margin-left: 10px 
+}
+
+.attribution {
+  margin: 30px 0 50px;
+  font-weight: bold;
 }
