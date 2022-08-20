@@ -55,3 +55,10 @@ function isThemeEqual (firstTheme, secondTheme) {
   }
   return true
 }
+
+
+///////
+
+const year = document.getElementById('current-year')
+
+year.innerHTML = new Date().getFullYear()
